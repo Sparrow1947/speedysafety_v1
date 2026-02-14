@@ -1,10 +1,15 @@
-
 {
   "name": "speed-safety-nets-portal",
+  "homepage": "https://sparrow1947.github.io/speedysafety_v1/",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
+    "start": "react-scripts start",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
@@ -17,6 +22,7 @@
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "@vitejs/plugin-react": "^4.3.4",
+    "gh-pages": "^6.3.0",
     "typescript": "^5.7.2",
     "vite": "^6.0.5"
   }
